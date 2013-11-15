@@ -48,7 +48,17 @@ Example:
 		}
 	}
 
+This still leads to a code folder near th other modules in the modules folder, but that's something we can't avoid right now.
+
+
 ##Background
+
+I like to have thirdparty modules living in their own folder and keep my own custom application code in mysite or maybe even a second folder with custom code.
+
+Now that we have composer I install more modules which sometimes provide little functionality but can come in quite handy.
+I don't want all those small 'plugins' in my root folder.
+
+I don't want to stir up the discussion again if we need this or something is wrong with the current 'all code in root folder' approach
 
 There was a long debate in the Silverstripe 2.x era on the Google dev group:
 https://groups.google.com/forum/#!msg/silverstripe-dev/6qdRkCDliEg/A3mH9kFhG6MJ
@@ -56,3 +66,5 @@ https://groups.google.com/forum/#!msg/silverstripe-dev/6qdRkCDliEg/A3mH9kFhG6MJ
 and
  
 https://groups.google.com/forum/#!topic/silverstripe-dev/on1_ABPDNTc
+
+For now I just want to know if this is gonna work!
