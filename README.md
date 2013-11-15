@@ -7,7 +7,7 @@ This is not really a module, but more a proof of concept.
 
 It might break things, but first attempts seem to work just fine.
 
-Pleas help me testing this with your own modules ! :)
+Please help me testing this with your own modules ! :)
 
 As far as I can see, the only thing that needs to be changed is an extra check for an extra path in `Requirements::path_for_file`.
 To test this without touching core there is a `ModuleRequirements_Backend` that also search for requirements in `MODULES_DIR`
