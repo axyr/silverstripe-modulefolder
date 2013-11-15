@@ -1,0 +1,25 @@
+{
+    "name": "axyr/silverstripe-modulefolder",
+    "description": "Install modules in the 'modules' folder instead of root",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe", "module", "cms"],
+        "license": "BSD-3-Clause",
+    "authors": [
+    {
+        "name": "Martijn van Nieuwenhoven",
+        "email": "info@axyrmedia.nl"
+    }
+    ],
+    "require":
+    {
+        "silverstripe/framework": "~3.1"
+    },
+    "extra": {
+        "installer-paths": {
+			"cms/": ["silverstripe/cms"],
+			"framework/": ["silverstripe/framework"],
+			"modules/": ["axyr/silverstripe-modulefolder"],
+			"modules/{$name}/": ["type:silverstripe-module"]
+		}
+    }
+}
