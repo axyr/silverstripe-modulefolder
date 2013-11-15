@@ -61,6 +61,7 @@ I don't want all those small 'plugins' in my root folder.
 I don't want to stir up the discussion again if we need this or something is wrong with the current 'all code in root folder' approach
 
 There was a long debate in the Silverstripe 2.x era on the Google dev group:
+
 https://groups.google.com/forum/#!msg/silverstripe-dev/6qdRkCDliEg/A3mH9kFhG6MJ
 
 and
