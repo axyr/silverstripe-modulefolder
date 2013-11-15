@@ -7,6 +7,16 @@ This is not really a module, but more a proof of concept.
 
 It might break things, but first attempts seem to work just fine.
 
+I tested the silverstripe installer with a few modules and the build passed:
+
+https://travis-ci.org/axyr/silverstripe-installer
+
+https://github.com/axyr/silverstripe-installer
+
+- axyr/silverstripe-adminlogin
+- ajshort/silverstripe-gridfieldextensions
+- unclecheese/display-logic
+
 Please help me testing this with your own modules ! :)
 
 As far as I can see, the only thing that needs to be changed is an extra check for an extra path in `Requirements::path_for_file`.
